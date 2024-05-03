@@ -1,0 +1,87 @@
+@media only screen and (min-width:320px) and (max-width:376px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .section-1{
+        padding: 10px 0;
+    }
+    .container1{
+        margin: 20px 20px;
+        width: 100%;
+        /*background-color: rgb(17, 133, 94);*/
+    }
+    .left{
+        width: 280px;
+        height: 700px;
+    
+    }
+    .pro-pic{margin: 20px 55px 0 55px;}
+    .name{ 
+        margin: 10px 60px 0 60px;
+    }
+    .text{
+        margin: 5px 65px ;
+    }
+    .contact{
+        margin:10px ;
+    }
+    .right{
+        margin-top: 20px;
+        width: 280px;
+        float: left;
+    }
+    .line-span{
+        width: 110px;
+        left: 110px;
+    }
+    .right p{ font-size: 13px;}
+    .right h2{ font-size: 18px;}
+    .know-parent{
+        width: 80%;
+        gap: 30px;
+        padding: 5px 0;
+    }
+    .know-child{
+        width: 30%;
+        text-align: center;
+        font-size: 12px;
+    }
+    .time,.comm{width: auto;}
+    .copyright{
+        width: 100%;
+        margin: 35px auto;
+    }
+    .copyright p, .copyright a{
+        font-size: 10px;
+        color: #44566c;
+    }
+    .clr-row h5{ font-size: 13px;}
+    .clr-row h4{ font-size: 13px;}
+    .small-text{font-size: 13px;}
+    .cont-text span{
+        font-weight: 300;
+        font-size: 11px;
+    }
+    .cont-text p{
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+}
+
+
+
+@media only screen and (min-width:376px) and (max-width:426px){
+}
+
+
+
+@media only screen and (min-width:427px) and (max-width:769px){
+}
+
+
+
+@media only screen and (min-width:769px) and (max-width:1025px){
+}
