@@ -14,10 +14,12 @@
     }
     .left{
         width: 280px;
-        height: 700px;
+        height: 650px;
     
     }
-    .pro-pic{margin: 20px 55px 0 55px;}
+    .pro-pic{margin: 20px 55px 0 55px;
+    }
+    .profile-pic{height: 130px;}
     .name{ 
         margin: 10px 60px 0 60px;
     }
@@ -31,27 +33,39 @@
         margin-top: 20px;
         width: 280px;
         float: left;
+        margin-bottom: 20px;
     }
+    .details h2{ width: 80px;}
     .line-span{
         width: 110px;
-        left: 110px;
+        left: 90px;
     }
     .right p{ font-size: 13px;}
     .right h2{ font-size: 18px;}
+    .knowledge{
+        width: auto;
+        height: 150px;
+        margin-left: -30px;
+        margin-right: -30px;
+
+    }
+    .knowledge h4{ padding-left: 30px;}
+
     .know-parent{
         width: 80%;
-        gap: 30px;
-        padding: 5px 0;
+        gap: 10px;
+        padding: 3px 0;
+        margin-left: 30px;
     }
     .know-child{
-        width: 30%;
+        width: 25%;
         text-align: center;
         font-size: 12px;
     }
-    .time,.comm{width: auto;}
+    .time,.comm{width: 40%;}
     .copyright{
         width: 100%;
-        margin: 35px auto;
+        margin: 35px 0 10px 0;
     }
     .copyright p, .copyright a{
         font-size: 10px;
@@ -74,14 +88,203 @@
 
 
 @media only screen and (min-width:376px) and (max-width:426px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .section-1{
+        padding:0;
+    }
+    .container1{
+        margin: 40px 15px;
+        width: auto;
+        /*background-color: rgb(17, 133, 94);*/
+    }
+    .left{
+        width: 100%;
+        height: 660px;
+    
+    }
+    .pro-pic{margin: 15px 100px;
+    }
+    .profile-pic{
+        height: 130px;
+    }
+    .name{ 
+        margin: 10px 60px 0 60px;
+    }
+    .text{
+        margin: 10px 100px ;
+        padding: 4px 30px;
+    }
+    .contact{
+        margin:10px ;
+    }
+    .right{
+        margin-top: 20px;
+        width: auto;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .details h2{ width: 100px;}
+    .line1{
+        width: 150px;
+        left: 90px;
+    }
+    .knowledge{
+        width: auto;
+        height: 150px;
+        margin-left: -30px;
+        margin-right: -30px;
+
+    }
+    .knowledge h4{ padding-left: 30px;}
+
+    .know-parent{
+        width: 80%;
+        gap: 10px;
+        padding: 3px 0;
+        margin-left: 30px;
+    }
+    .know-child{
+        width: 25%;
+        text-align: center;
+        font-size: 12px;
+    }
+    .time,.comm{width: 40%;}
+    .copyright{
+        width: 100%;
+        margin: 10px 30px;
+    }
+
 }
 
 
 
 @media only screen and (min-width:427px) and (max-width:769px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .section-1{
+        padding:0;
+    }
+    .container1{
+        margin: 30px 15px;
+        width: auto;
+        /*background-color: rgb(17, 133, 94);*/
+    }
+    .left{
+        width: 100%;
+        height: 680px;
+    
+    }
+    .pro-pic{margin: 10px 100px;}
+    .profile-pic{
+        margin: 10px 50px;
+        height: 130px;
+    }
+    .name{ 
+        margin: 10px 60px 0 60px;
+    }
+    .text{
+        margin: 10px 160px ;
+        padding: 4px 20px;
+    }
+    .right{
+        margin-top: 20px;
+        width: auto;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .knowledge{
+        width: auto;
+        height: 150px;
+        margin-left: -30px;
+        margin-right: -30px;
+
+    }
+    .knowledge h4{ padding-left: 30px;}
+
+    .know-parent{
+        width: 80%;
+        gap: 10px;
+        padding: 3px 0;
+        margin-left: 30px;
+    }
+    .know-child{
+        width: 30%;
+        text-align: center;
+        font-size: 12px;
+    }
+    .copyright{
+        width: 100%;
+        margin: 15px 90px;
+    }
+
 }
 
 
-
 @media only screen and (min-width:769px) and (max-width:1025px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .section-1{
+        padding:0;
+        margin: 0;
+    }
+    .container1{
+        margin: 30px 15px;
+        width: auto;
+        /*background-color: rgb(17, 133, 94);*/
+    }
+    .left{
+        width: 100%;
+        height: 670px;
+    
+    }
+    .pro-pic{margin: 10px 100px;}
+    .profile-pic{
+        margin: 10px 250px;
+        height: 130px;
+    }
+    .name{ 
+        margin: 10px 60px 0 60px;
+    }
+    .text{
+        margin: 10px 350px ;
+        padding: 4px 25px;
+    }
+    .right{
+        margin-top: 20px;
+        width: 100%;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .knowledge{
+        width: auto;
+        height: 150px;
+        margin-left: -30px;
+        margin-right: -30px;
+
+    }
+    .knowledge h4{ padding-left: 30px;}
+
+    .know-parent{
+        width: 80%;
+        gap: 10px;
+        padding: 3px 0;
+        margin-left: 30px;
+    }
+    .know-child{
+        width: 25%;
+        text-align: center;
+        font-size: 12px;
+    }
+    .time,.comm{width: 40%;}
+
 }

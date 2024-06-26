@@ -14,11 +14,12 @@
     }
     .left{
         width: 280px;
-        height: 700px;
+        height: 650px;
         max-width: 100%;
     
     }
     .pro-pic{margin: 20px 55px 0 55px;}
+    .profile-pic{height: 130px;}
     .name{ 
         margin: 10px 60px 0 60px;
     }
@@ -38,6 +39,7 @@
     }
     .right{
         margin-top: 20px;
+        margin-bottom: 20px;
         width: 280px;
         float: left;
     }
@@ -55,25 +57,168 @@
     }
     .copyright{
         width: 100%;
-        margin: 20px auto;
+        margin: 15px auto;
     }
     .copyright p{font-size: 10px;}
 
 }
 
 
-
 @media only screen and (min-width:376px) and (max-width:426px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .section-1{
+        padding:0;
+    }
+    .container1{
+        margin: 40px 15px;
+        width: auto;
+        /*background-color: rgb(17, 133, 94);*/
+    }
+    .left{
+        width: 100%;
+        height: 660px;
     
+    }
+    .pro-pic{margin: 15px 100px;}
+
+    .profile-pic{
+        height: 130px;
+    }
+    .name{ 
+        margin: 10px 60px 0 60px;
+    }
+    .text{
+        margin: 10px 100px ;
+        padding: 4px 30px;
+    }
+    .contact{
+        margin:10px ;
+    }
+
+    .cont-text span{
+        font-weight: 300;
+        font-size: 11px;
+    }
+    .cont-text p{
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .right{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: auto;
+        float: left;
+    }
+    .line-span{
+        width: 100px;
+        left: 110px;
+    }
+    .Portfolio-parent{
+        margin: 10px 5px;
+        column-gap: 25px;
+    }
+    .Portfolio-child{
+        width: 45%;
+        margin: 15px 0;
+    }
+    .copyright{
+        width: 100%;
+        margin: 10px 30px;
+    }
     
 }
 
 
 
 @media only screen and (min-width:427px) and (max-width:769px){
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .section-1{
+        margin: 0;
+        padding:0;
+    }
+    .container1{
+        margin: 25px 15px;
+        width: auto;
+        /*background-color: rgb(17, 133, 94);*/
+    }
+    .left{
+        width: 100%;
+        height: 670px;
+    
+    }
+    .pro-pic{margin: 10px 100px;
+    }
+    .profile-pic{
+        margin: 10px 50px;
+        height: 130px;
+    }
+    .name{ 
+        margin: 10px 60px 0 60px;
+    }
+    .text{
+        margin: 10px 160px ;
+        padding: 4px 20px;
+    }
+    .contact{
+        margin:10px ;
+    }
+    .right{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: auto;
+        float: left;
+    }
+    .copyright{
+        width: 100%;
+        margin: 10px 90px;
+    }
+    
 }
 
 
 
 @media only screen and (min-width:769px) and (max-width:1025px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .section-1{
+        padding:0;
+        margin: 0;
+    }
+    .container1{
+        margin: 30px 15px;
+        width: auto;
+        /*background-color: rgb(17, 133, 94);*/
+    }
+    .left{
+        width: 100%;
+        height: 675px;
+    
+    }
+    .pro-pic{margin: 10px 100px;}
+    .profile-pic{
+        margin: 10px 250px;
+        height: 130px;
+    }
+    .text{
+        margin: 10px 350px ;
+        padding: 4px 25px;
+    }
+    .right{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: auto;
+        float: left;
+    }
 }
